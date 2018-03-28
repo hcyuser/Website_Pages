@@ -60,27 +60,27 @@ if(empty($_SERVER["HTTPS"])) {
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/sitcon2018.jpg" width="1100" height="500">
+          <img src="./images/sitcon2018.jpg" width="900" height: "400">
             <div class="carousel-caption">
               <h3>@Academia Sinica, Taipei, 2018</h3>
             </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/thai.jpg" width="1100" height="500">
+          <img src="./images/thai.jpg" width="900" height: "400">
             <div class="carousel-caption">
-              <h3>@Amphawa Floating Market, Thailand 2017</h3>
+              <h3>@Amphawa Floating Market, Thailand, 2017</h3>
             </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/fkum.jpg" width="1100" height="500">
+          <img src="./images/fkum.jpg" width="900" height: "400">
             <div class="carousel-caption">
-              <h3>@Faculty of Engineering, University of Malaya, Malaysia 2017</h3>
+              <h3>@Faculty of Engineering, University of Malaya, Malaysia, 2017</h3>
             </div>
         </div>
         <div class="carousel-item">
-          <img src="./images/kmrt.jpg" width="1100" height="500">
+          <img src="./images/kmrt.jpg" width="900px" height: "400">
             <div class="carousel-caption">
-              <h3>@Kaohsiung, Taiwan 2016</h3>
+              <h3>@Kaohsiung, Taiwan, 2016</h3>
             </div>
         </div>
       </div>
@@ -221,6 +221,9 @@ if(empty($_SERVER["HTTPS"])) {
         <li>Temporary Research Assistant,2017,2018</li>
         <p>Project: 多模態英文閱讀--利用功能語法之後設語言增進國中生之產生與建構意義之能力(1/2)，科技部 (MOST 106-2633-H-003-001)&nbsp; <a href="https://1drv.ms/b/s!Av124FbBx2WUnzyEgp0QyQE2c3lQ">Contract</a><br/>
         Principal Investigator：<a href="http://www.eng.ntnu.edu.tw/members/bio.php?PID=198">Pei-Chin Chang</a><br/>Department of English, National Taiwan Normal University, Taipei, Taiwan</p>
+        <li>Research Assistant,2018</li>
+        <p>Project: 教學意見調查平台中學生評論的言談分析: 基於語料庫實證研究，科技部 (MOST)&nbsp; <a href="https://1drv.ms/b/s!Av124FbBx2WUpASj71RYA7J4Krjx">Contract</a><br/>
+        Principal Investigator：<a href="http://163.21.236.197/~english/old_dat/teacher_int/Mei-ching-Ho.htm">Mei-Ching Ho</a><br/>Department of English Instruction, University of Taipei, Taipei, Taiwan</p>
      </div>
       </div>
     </div>
