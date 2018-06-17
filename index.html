@@ -8,6 +8,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+  <script type="text/javascript">
+        $(document).ready(function() {
+            $('#ET').DataTable({
+              paging:false,
+              searching:false,
+              info:false
+            });
+        } );
+  </script>
 </head>
 <body>
 
@@ -91,12 +102,30 @@
 <div class="container">
   <div class="row">
     <div class="card">
-        <div class="card-header"><h3>CHIH-YANG HUANG (黃志揚)<a href="https://1drv.ms/b/s!Av124FbBx2WUoxbugrFpbsVeaPrD" class="btn btn-info" role="button">CV:Chinese Version</a></div></h3>
+        <div class="card-header text-center"><h4>CHIH-YANG HUANG (黃志揚)<a href="https://1drv.ms/b/s!Av124FbBx2WUoxbugrFpbsVeaPrD" class="btn btn-info" role="button">Download CV</a></div></h4>
         <div class="card-body">
-          <h5>
-  				Student Chih-Yang Huang (黃志揚) received his STUDENT EXCHANGE PROGRAMME in <a href="http://www.fsktm.um.edu.my/">Computer Science and Information Engineering</a> at <a href="http://www.um.edu.my">University of Malaya</a> in 2016.
-  				After joining the STUDENT EXCHANGE PROGRAMME, he continued to study in <a href="http://cs.utaipei.edu.tw">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a>.
-          </h5>
+          <p>
+            <h5>
+    				Student Chih-Yang Huang (黃志揚) received his STUDENT EXCHANGE PROGRAMME in <a href="http://www.fsktm.um.edu.my/">Computer Science and Information Engineering</a> at <a href="http://www.um.edu.my">University of Malaya</a> in 2016.
+    				After joining the STUDENT EXCHANGE PROGRAMME, he continued to study in <a href="http://cs.utaipei.edu.tw">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a>. He got<button type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target="#MOSTModal">College Student Research Scholarship, MOST</button>in 2018.
+            </h5>
+          </p>
+          <p>
+            <h5>
+                    <a class="btn btn-secondary btn-lg btn-block" data-toggle="collapse" href="#RI" role="button" aria-expanded="false" aria-controls="RI">Research Interest</a>
+                    <div class="collapse" id="RI">
+                        <div class="card card-body">
+                          <ul class="list-group text-center">
+                            <li class="list-group-item">Algorithms</li>
+                            <li class="list-group-item">Natural Language Processing</li>
+                            <li class="list-group-item">Computational Linguistics</li>
+                            <li class="list-group-item">Social Network Analysis</li>
+                            <li class="list-group-item">Digital Humanities</li>
+                          </ul>
+                        </div>
+                    </div>
+            </h5>
+          </p>
         </div>
     </div>
   </div>
@@ -104,7 +133,7 @@
 <br>
 <div class="container">
   <span class="row justify-content-center align-self-center"><h4>Education & Training</h4></span>
-  <table class="table table-striped">
+  <table id="ET" class="table table-striped ">
     <thead>
       <tr>
         <th>Time</th>
@@ -256,7 +285,7 @@
     </div>
   </div>
 
-  <!-- The Modal -->
+  <!-- The ContactModal -->
   <div class="modal fade" id="ContactModal">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -273,6 +302,36 @@
           <p>Telegram: <a href='https://t.me/hcyuser'>https://t.me/hcyuser</a></p>
           <p>Messenger: <a href='https://m.me/hcyuser'>https://m.me/hcyuser</a></p>
           <p>GitHub: <a href='https://github.com/hcyuser'>https://github.com/hcyuser</a></p>
+
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- The MOSTModal -->
+  <div class="modal fade" id="MOSTModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h5 class="modal-title">College Student Research Scholarship, MOST <br> 科技部-大專學生研究計畫</h5>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <p>Project: 空間興趣群組查詢問題之研究(The spatial-aware interest group query problem)</p>
+          <p>Research Time: 2018.07.01~2019.02.28</p>
+          <p>Thesis Advisor: <a href='https://arsp.most.gov.tw/NSCWebFront/modules/talentSearch/talentSearch.do?action=initBasic&rsNo=5aa75891276a4855876ba825740d103c'>Yen-Hung Chen(陳彥宏)</a></p>
+
 
         </div>
 
