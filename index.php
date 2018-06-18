@@ -20,21 +20,85 @@ if(empty($_SERVER["HTTPS"])) {
   <script type="text/javascript" src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
   <script type="text/javascript">
         $(document).ready(function() {
-            $('#ET').DataTable({
-              paging:false,
-              searching:false,
-              info:false
-            });
-            $('#PP').DataTable({
-              paging:false,
-              searching:false,
-              info:false
-            });
-            $('#AE').DataTable({
-              paging:false,
-              searching:false,
-              info:false
-            });
+
+            if( navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)
+              ){
+                    $('#ET').DataTable({
+                      paging:false,
+                      searching:false,
+                      info:false
+                    });
+                    $('#PP').DataTable({
+                      paging:false,
+                      searching:false,
+                      info:false,
+                      columnDefs: [
+                           {
+                               "targets": [0],
+                               "visible": false,
+                           },
+                           {
+                               "targets": [ 1 ],
+                               "visible": false
+                           },
+                           {
+                               "targets": [ 4 ],
+                               "visible": false
+                           }
+                       ]
+                    });
+                    $('#AE').DataTable({
+                      paging:false,
+                      searching:false,
+                      info:false,
+                      columnDefs: [
+                           {
+                               "targets": [ 0 ],
+                               "visible": false,
+                           },
+                           {
+                               "targets": [ 1 ],
+                               "visible": false
+                           },
+                           {
+                               "targets": [ 4 ],
+                               "visible": false
+                           },
+                           {
+                               "targets": [ 5 ],
+                               "visible": false
+                           },
+                           {
+                               "targets": [ 6 ],
+                               "visible": false
+                           }
+                       ]
+                    });
+              }
+                else {
+
+                      $('#ET').DataTable({
+                        paging:false,
+                        searching:false,
+                        info:false
+                      });
+                      $('#PP').DataTable({
+                        paging:false,
+                        searching:false,
+                        info:false
+                      });
+                      $('#AE').DataTable({
+                        paging:false,
+                        searching:false,
+                        info:false
+                      });
+              }
+
 
 
         } );
