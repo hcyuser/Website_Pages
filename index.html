@@ -21,6 +21,8 @@
                 || navigator.userAgent.match(/BlackBerry/i)
                 || navigator.userAgent.match(/Windows Phone/i)
               ){
+                    $("#MOSTMObile").text(" College Student Research Scholarship, MOST ");
+                    $("#MOST").remove();
                     $('#ET').DataTable({
                       paging:false,
                       searching:false,
@@ -202,7 +204,7 @@
           <p>
             <h5>
     				Student Chih-Yang Huang (黃志揚) received his STUDENT EXCHANGE PROGRAMME in <a href="http://www.fsktm.um.edu.my/">Computer Science and Information Engineering</a> at <a href="http://www.um.edu.my">University of Malaya</a> in 2016.
-    				After joining the STUDENT EXCHANGE PROGRAMME, he continued to study in <a href="http://cs.utaipei.edu.tw">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a>. He got<button type="button" class="btn btn-link btn-lg" data-toggle="modal" data-target="#MOSTModal">College Student Research Scholarship, MOST</button>in 2018.
+    				After joining the STUDENT EXCHANGE PROGRAMME, he continued to study in <a href="http://cs.utaipei.edu.tw">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a>. He got<span id="MOSTMObile"></span><button type="button" id="MOST" class="btn btn-link btn-lg" data-toggle="modal" data-target="#MOSTModal">College Student Research Scholarship, MOST</button>in 2018.
             </h5>
           </p>
           <p>
