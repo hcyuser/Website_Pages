@@ -263,7 +263,7 @@ if(empty($_SERVER["HTTPS"])) {
         <td><a href="http://www.um.edu.my/">University of Malaya, Kuala Lumpur, Malaysia</a></td>
       </tr>
       <tr>
-        <td>July, 2017</td>
+        <td>2017.07</td>
         <td><a href="http://www.stat.sinica.edu.tw">Summer School, Institute of Statistical Science, Academia Sinica, Taipei, Taiwan</a></td>
       </tr>
       <tr>
@@ -292,7 +292,7 @@ if(empty($_SERVER["HTTPS"])) {
       <tr>
         <td>2015</td>
         <td>Course Final Project Presentations</td>
-        <td><a href="https://github.com/hcyuser/Where-is-Taipei-Metro">Where is Taipei Metro,2015</a></td>
+        <td><a href="https://github.com/hcyuser/Where-is-Taipei-Metro">Where is Taipei Metro</a></td>
         <td>Project Manager & API Designer</td>
         <td>University of Taipei, Taipei</td>
       </tr>
@@ -398,11 +398,20 @@ if(empty($_SERVER["HTTPS"])) {
             <tr>
               <td>2018</td>
               <td>Research Assistant</td>
-              <td>教學意見調查平台中學生評論的言談分析: 基於語料庫實證研究，科技部 (MOST 106-2410-H-845-004) <a href="https://1drv.ms/b/s!Av124FbBx2WUpASj71RYA7J4Krjx">Contract</td>
+              <td>教學意見調查平台中學生評論的言談分析: 基於語料庫實證研究，科技部 (MOST 106-2410-H-845-004) <a href="https://1drv.ms/b/s!Av124FbBx2WUpASj71RYA7J4Krjx">Contract</a></td>
               <td>Building Corpus System and Quantitative Linguistics Research (N-gram, Word2Vec)</td>
               <td><a href="http://163.21.236.197/~english/old_dat/teacher_int/Mei-ching-Ho.htm">Mei-Ching Ho</a></td>
               <td>Department of English Instruction</td>
               <td>University of Taipei, Taipei, Taiwan</td>
+            </tr>
+            <tr>
+              <td>2018</td>
+              <td>Research Assistant</td>
+              <td>臺灣省政史料數位資源開放平臺，科技部 (MOST 106-3114-E-002-018)</td>
+              <td>__</td>
+              <td><a href="http://www.digital.ntu.edu.tw/hsiang/">Hsiang, Jieh</a></td>
+              <td><a href="http://www.digital.ntu.edu.tw">RCDH</a> and <a href="https://www.csie.ntu.edu.tw/">CSIE</a></td>
+              <td>National Taiwan University, Taipei, Taiwan</td>
             </tr>
         </tbody>
 
