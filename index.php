@@ -408,6 +408,7 @@ if(empty($_SERVER["HTTPS"])) {
               <td>2018</td>
               <td>Research Assistant</td>
               <td>臺灣省政史料數位資源開放平臺，科技部 (MOST 106-3114-E-002-018)</td>
+              <td>Building the DocuXml Editor and the Converter between 淡新檔案 and DARC</td>
               <td><a href="http://www.digital.ntu.edu.tw/hsiang/">Hsiang, Jieh</a></td>
               <td><a href="http://www.digital.ntu.edu.tw">RCDH</a> and <a href="https://www.csie.ntu.edu.tw/">CSIE</a></td>
               <td>National Taiwan University, Taipei, Taiwan</td>
