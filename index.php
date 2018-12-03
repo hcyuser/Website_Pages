@@ -403,6 +403,15 @@ if(empty($_SERVER["HTTPS"])) {
               <td><a href="http://www.digital.ntu.edu.tw">RCDH</a> and <a href="https://www.csie.ntu.edu.tw/">CSIE</a></td>
               <td>National Taiwan University, Taipei, Taiwan</td>
             </tr>
+            <tr>
+              <td>2018</td>
+              <td>Research Assistant</td>
+              <td>淡新檔案之客家研究與數位分析系統建置計畫 (客家委員會客家文化發展中心)</td>
+              <td>Building THDL GIS System</td>
+              <td><a href="http://www.digital.ntu.edu.tw/hsiang/">Hsiang, Jieh</a></td>
+              <td><a href="http://www.digital.ntu.edu.tw">RCDH</a> and <a href="https://www.csie.ntu.edu.tw/">CSIE</a></td>
+              <td>National Taiwan University, Taipei, Taiwan</td>
+            </tr>
         </tbody>
 
       </table>
@@ -601,4 +610,3 @@ if(empty($_SERVER["HTTPS"])) {
     </script>
 </body>
 </html>
-
