@@ -209,7 +209,7 @@ if(empty($_SERVER["HTTPS"])) {
           <p>
             <h5>
     				Student Chih-Yang Huang (黃志揚) got admitted to <a href="https://www.csie.ntu.edu.tw">Artificial Intelligence M.S. Degree Program, Dept. CSIE, NTU, TW</a> as well as <a href="http://ds.ntu.edu.tw">Data Science M.S. Degree Program, NTU, TW</a> in 2019.
-    				He will graduate from <a href="http://cs.utaipei.edu.tw/">Bachelor of Computer Science, University of Taipei</a> in 2019.
+    				He graduated from <a href="http://cs.utaipei.edu.tw/">Bachelor of Computer Science, University of Taipei</a> in January 2019.
             His research interests include  Algorithms, Natural Language Processing, Computational Linguistics, Social Network Analysis and Digital Humanities.
             </h5>
           </p>
@@ -238,10 +238,6 @@ if(empty($_SERVER["HTTPS"])) {
         <td><a href="http://www.ylsh.ilc.edu.tw">National Yilan Senior High School, Yilan, Taiwan</a></td>
       </tr>
       <tr>
-        <td>2015-2016</td>
-        <td><a href="http://www.utaipei.edu.tw">University of Taipei,Taipei, Taiwan</a></td>
-      </tr>
-      <tr>
         <td>2016-2017</td>
         <td><a href="http://www.um.edu.my/">University of Malaya, Kuala Lumpur, Malaysia</a></td>
       </tr>
@@ -250,10 +246,9 @@ if(empty($_SERVER["HTTPS"])) {
         <td><a href="http://www.stat.sinica.edu.tw">Summer School, Institute of Statistical Science, Academia Sinica, Taipei, Taiwan</a></td>
       </tr>
       <tr>
-        <td>2017-now</td>
-        <td><a href="http://www.utaipei.edu.tw">University of Taipei, Taipei, Taiwan</a></td>
+        <td>2015-2019</td>
+        <td><a href="http://www.utaipei.edu.tw">University of Taipei,Taipei, Taiwan</a></td>
       </tr>
-
     </tbody>
   </table>
 </div>
@@ -499,6 +494,7 @@ if(empty($_SERVER["HTTPS"])) {
           <p>Telegram: <a href='https://t.me/hcyuser'>https://t.me/hcyuser</a></p>
           <p>Messenger: <a href='https://m.me/hcyuser'>https://m.me/hcyuser</a></p>
           <p>GitHub: <a href='https://github.com/hcyuser'>https://github.com/hcyuser</a></p>
+          <p>ORCID: <a href='https://orcid.org/0000-0002-4057-2746'>https://orcid.org/0000-0002-4057-2746</a></p>
 
         </div>
 
