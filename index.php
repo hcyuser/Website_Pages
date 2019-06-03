@@ -417,6 +417,15 @@ if(empty($_SERVER["HTTPS"])) {
               <td>Library</td>
               <td>National Taiwan University, Taipei, Taiwan</td>
             </tr>
+            <tr>
+              <td>2019</td>
+              <td>Research Assistant</td>
+              <td>以語料庫及多模態言談分析方法探究部落格商業贊助文，科技部</td>
+              <td>Web data extraction</td>
+              <td><a href="http://163.21.236.197/~english/old_dat/teacher_int/Mei-ching-Ho.htm">Mei-Ching Ho</a></td>
+              <td>Department of English Instruction</td>
+              <td>University of Taipei, Taipei, Taiwan</td>
+            </tr>
         </tbody>
 
       </table>
