@@ -208,8 +208,8 @@ if(empty($_SERVER["HTTPS"])) {
         <div class="card-body">
           <p>
             <h5>
-    				Student Chih-Yang Huang (黃志揚) got admitted to <a href="https://www.csie.ntu.edu.tw">Artificial Intelligence M.S. Degree Program, Dept. CSIE, NTU, TW</a> as well as <a href="http://ds.ntu.edu.tw">Data Science M.S. Degree Program, NTU, TW</a> in 2019.
-    				He graduated from <a href="http://cs.utaipei.edu.tw/">Bachelor of Computer Science, University of Taipei</a> in January 2019.
+            Chih-Yang Huang (黃志揚) is studying for his master's degree in <a href="https://www.csie.ntu.edu.tw">Master Program of Artificial Intelligence offered by the Department of Computer Science and Information Engineering</a> at <a href="https://www.ntu.edu.tw">National Taiwan University</a>.
+    				He received his B.S. degree in <a href="http://cs.utaipei.edu.tw/">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a> in 2019.
             His research interests include  Algorithms, Natural Language Processing, Computational Linguistics, Social Network Analysis and Digital Humanities.
             </h5>
           </p>
@@ -248,6 +248,10 @@ if(empty($_SERVER["HTTPS"])) {
       <tr>
         <td>2015-2019</td>
         <td><a href="http://www.utaipei.edu.tw">University of Taipei,Taipei, Taiwan</a></td>
+      </tr>
+      <tr>
+        <td>2019-now</td>
+        <td><a href="http://www.ntu.edu.tw">National Taiwan University,Taipei, Taiwan</a></td>
       </tr>
     </tbody>
   </table>
@@ -340,6 +344,14 @@ if(empty($_SERVER["HTTPS"])) {
         <td><p>Author:<br>Chih-yang Huang(黃志揚), Po-Chuan Chien(簡伯銓), Yen-Hung Chen(陳彥宏)</p>
         <p>In <a href="https://ics2018.yuntech.edu.tw">ICS 2018</a></p></td>
         <td>National Yunlin University of Science and Technology, Yunlin</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-warning">New</span>2019</td>
+        <td><span class="badge badge-primary">Conference Proceedings</span></td>
+        <td>An user-oriented HGIS platform on Taiwanese Land Deeds</td>
+        <td><p>Author:<br>Chih-yang Huang(黃志揚), <a href="https://www.mpiwg-berlin.mpg.de/users/nylin">Nung-yao Lin(林農堯)</a>, Chung-Hsiang Ou(歐仲翔)</p>
+        <p>In <a href="https://wps.itc.kansai-u.ac.jp/jadh2019/">JADH 2019</a></p></td>
+        <td>Kansai University, Osaka, Japan</td>
       </tr>
     </tbody>
   </table>
