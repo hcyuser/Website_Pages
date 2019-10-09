@@ -346,12 +346,20 @@ if(empty($_SERVER["HTTPS"])) {
         <td>National Yunlin University of Science and Technology, Yunlin</td>
       </tr>
       <tr>
-        <td><span class="badge badge-warning">New</span>2019</td>
+        <td>2019</td>
         <td><span class="badge badge-primary">Conference Proceedings</span></td>
         <td>An user-oriented HGIS platform on Taiwanese Land Deeds</td>
         <td><p>Author:<br>Chih-yang Huang(黃志揚), <a href="https://www.mpiwg-berlin.mpg.de/users/nylin">Nung-yao Lin(林農堯)</a>, Chung-Hsiang Ou(歐仲翔)</p>
         <p>In <a href="https://wps.itc.kansai-u.ac.jp/jadh2019/">JADH 2019</a></p></td>
         <td>Kansai University, Osaka, Japan</td>
+      </tr>
+      <tr>
+        <td><span class="badge badge-warning">New</span>2019</td>
+        <td><span class="badge badge-primary">Conference Proceedings</span></td>
+        <td>An HGIS Platform of Taiwanese Land Deeds</td>
+        <td><p>Author:<br>Jieh Hsiang(項潔), Chih-yang Huang(黃志揚)</p>
+        <p>In <a href="http://compling.hss.ntu.edu.sg/events/2019-pnc/">PNC 2019</a></p></td>
+        <td>Nanyang Technological University, Singapore</td>
       </tr>
     </tbody>
   </table>
