@@ -153,7 +153,7 @@ if(empty($_SERVER["HTTPS"])) {
       height: 100%;
     }
     </style>
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <div id="demo" class="carousel slide">
 
       <!-- Indicators -->
       <ul class="carousel-indicators">
@@ -161,11 +161,18 @@ if(empty($_SERVER["HTTPS"])) {
         <li data-target="#demo" data-slide-to="1"></li>
         <li data-target="#demo" data-slide-to="2"></li>
         <li data-target="#demo" data-slide-to="3"></li>
+        <li data-target="#demo" data-slide-to="4"></li>
       </ul>
 
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="./images/qingtiangang.jpg" width="1100" height="400">
+            <div class="carousel-caption">
+              <h3>@Qingtiangang, Taipei, 2020</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
           <img src="./images/sitcon2018.jpg" width="1100" height="400">
             <div class="carousel-caption">
               <h3>@Academia Sinica, Taipei, 2018</h3>
@@ -354,7 +361,7 @@ if(empty($_SERVER["HTTPS"])) {
         <td>Kansai University, Osaka, Japan</td>
       </tr>
       <tr>
-        <td><span class="badge badge-warning">New</span>2019</td>
+        <td>2019</td>
         <td><span class="badge badge-primary">Conference Proceedings</span></td>
         <td>An HGIS Platform of Taiwanese Land Deeds</td>
         <td><p>Author:<br>Jieh Hsiang(項潔), Chih-yang Huang(黃志揚)</p>
@@ -640,13 +647,13 @@ if(empty($_SERVER["HTTPS"])) {
                   name: 'Tech Skills',
                   data: [
                       { name: 'Java', y: 40 },
-                      { name: 'C/C++', y: 35 },
+                      { name: 'C/C++', y: 10 },
                       { name: 'Shell Script', y: 30 },
-                      { name: 'Matlab', y:15 },
-                      { name: 'Python', y: 20 },
-                      { name: 'R', y: 12 },
-                      { name: 'Swift', y: 10 },
-                      { name: 'JavaScript', y: 13 },
+                      { name: 'Matlab', y:10 },
+                      { name: 'Python', y: 30 },
+                      { name: 'R', y: 5 },
+                      { name: 'Swift', y: 5 },
+                      { name: 'JavaScript', y: 40 },
                       { name: 'PHP', y: 15 }
                   ]
               }]
