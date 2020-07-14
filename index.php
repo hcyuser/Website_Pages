@@ -354,6 +354,13 @@ if(empty($_SERVER["HTTPS"])) {
       </tr>
       <tr>
         <td>2019</td>
+        <td>Academic Project</td>
+        <td><a href="http://doi.airiti.com/LandingPage/NTURCDH/10.6681/NTURCDH.DB_THDL/SERVICE/GIS">THDL 古契書歷史地理資訊系統</a></td>
+        <td>Designer</td>
+        <td>National Taiwan University, Taipei</td>
+      </tr>
+      <tr>
+        <td>2019</td>
         <td><span class="badge badge-primary">Conference Proceedings</span></td>
         <td>An user-oriented HGIS platform on Taiwanese Land Deeds</td>
         <td><p>Author:<br>Chih-yang Huang(黃志揚), <a href="https://www.mpiwg-berlin.mpg.de/users/nylin">Nung-yao Lin(林農堯)</a>, Chung-Hsiang Ou(歐仲翔)</p>
