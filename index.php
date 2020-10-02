@@ -393,7 +393,8 @@ if(empty($_SERVER["HTTPS"])) {
         <td>2020</td>
         <td><span class="badge badge-primary">Conference Proceedings</span></td>
         <td>Company Failure Risk Prediction Based on the Court's Judgments</td>
-        <td>Author:<br> Chih-yang Huang(黃志揚)</td>
+        <td>Author:<br> Chih-yang Huang(黃志揚)
+        <p>In <a href="https://dadh2020.ascdc.tw">DADH 2020</a></p></td>
         <td>Academia Sinica, Taipei</td>
       </tr>
     </tbody>
