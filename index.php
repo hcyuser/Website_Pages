@@ -389,6 +389,13 @@ if(empty($_SERVER["HTTPS"])) {
         <td>Chih-Yang Huang, Po-Chuan Chien, Yen Hung Chen, "Exact and Heuristic Algorithms for Some Spatial-aware Interest Group Query Problems," Journal of Internet Technology, vol. 21, no. 4 , pp. 1199-1205, Jul. 2020.</td>
         <td>National Taiwan University, Taipei</td>
       </tr>
+      <tr>
+        <td>2020</td>
+        <td><span class="badge badge-primary">Conference Proceedings</span></td>
+        <td>Company Failure Risk Prediction Based on the Court's Judgments</td>
+        <td>Author:<br> Chih-yang Huang(黃志揚)</td>
+        <td>Academia Sinica, Taipei</td>
+      </tr>
     </tbody>
   </table>
 </div>
@@ -475,7 +482,7 @@ if(empty($_SERVER["HTTPS"])) {
               <td>University of Taipei, Taipei, Taiwan</td>
             </tr>
             <tr>
-              <td>2019</td>
+              <td>2019~2020</td>
               <td>Research Assistant</td>
               <td>探究多模態教師寫作評論:影音回饋及線上即時評語之影響，科技部 (MOST 108-2410-H-845-012)</td>
               <td>Data Collection</td>
