@@ -167,6 +167,12 @@ if(empty($_SERVER["HTTPS"])) {
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
+          <img src="./images/eecsntu.jpg" width="1100" height="400">
+            <div class="carousel-caption">
+              <h3>@EECS, NTU, Taipei, 2021</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
           <img src="./images/qingtiangang.jpg" width="1100" height="400">
             <div class="carousel-caption">
               <h3>@Qingtiangang, Taipei, 2020</h3>
@@ -176,12 +182,6 @@ if(empty($_SERVER["HTTPS"])) {
           <img src="./images/sitcon2018.jpg" width="1100" height="400">
             <div class="carousel-caption">
               <h3>@Academia Sinica, Taipei, 2018</h3>
-            </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./images/thai.jpg" width="1100" height="400">
-            <div class="carousel-caption">
-              <h3>@Amphawa Floating Market, Thailand, 2017</h3>
             </div>
         </div>
         <div class="carousel-item">
