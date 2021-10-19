@@ -21,6 +21,18 @@
                 || navigator.userAgent.match(/BlackBerry/i)
                 || navigator.userAgent.match(/Windows Phone/i)
               ){
+
+                    $('#WE').DataTable({
+                      paging:false,
+                      searching:false,
+                      info:false,
+                      columnDefs: [
+                           {
+                               "targets": [2],
+                               "visible": false,
+                           }
+                       ]
+                    });
                     $('#ET').DataTable({
                       paging:false,
                       searching:false,
@@ -75,6 +87,11 @@
               }
                 else {
 
+                      $('#WE').DataTable({
+                        paging:false,
+                        searching:false,
+                        info:false
+                      });
                       $('#ET').DataTable({
                         paging:false,
                         searching:false,
@@ -114,6 +131,9 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
+          <a class="nav-link" href="#WE">Working Experience</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="#ET">Education & Training</a>
         </li>
         <li class="nav-item">
@@ -122,16 +142,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#AE">Academic Experience</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Awards">Awards</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Awards">Certification</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Awards">Volunteer Experience</a>
-        </li>
-
         <li class="nav-item">
           <a class="nav-link" data-toggle="modal" data-target="#ContactModal">Contact</a>
         </li>
@@ -208,7 +218,7 @@
         <div class="card-body">
           <p>
             <h5>
-            Chih-Yang Huang (黃志揚) just graduated from <a href="https://www.csie.ntu.edu.tw">Master Program of Artificial Intelligence offered by the Department of Computer Science and Information Engineering</a> at <a href="https://www.ntu.edu.tw">National Taiwan University</a> in 2021.
+            Chih-Yang Huang (黃志揚) joined <a href="https://www.novatek.com.tw">Novatek Microelectronics Corp.</a> as a senior engineer since 2021. He worked with Distinguished Prof. <a href="https://scholar.google.com/citations?user=Rxg0ObMAAAAJ&hl=zh-TW">Jieh Hsiang</a> and graduated from <a href="https://www.csie.ntu.edu.tw">Master Program of Artificial Intelligence offered by the Department of Computer Science and Information Engineering</a> at <a href="https://www.ntu.edu.tw">National Taiwan University</a> in 2021.
     				He received his B.S. degree in <a href="http://cs.utaipei.edu.tw/">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a> in 2019.
             His research interests include  Algorithms, Natural Language Processing, Computational Linguistics, Social Network Analysis and Digital Humanities.
             </h5>
@@ -216,6 +226,29 @@
         </div>
     </div>
   </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <span class="row justify-content-center align-self-center"><h4>Working Experience</h4></span>
+  <table id="WE" class="table table-striped table-bordered" style="width:100%">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th>Position</th>
+        <th>Working Content</th>
+        <th>Institution</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2021-Now</td>
+        <td>Senior Engineer</td>
+        <td>Design Data Storage, Manipulatation and Analysis</td>
+        <td><a href="https://www.novatek.com.tw">Novatek Microelectronics Corp., Hsinchu, Taiwan</a></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 <br>
 <br>
@@ -668,11 +701,11 @@
               series: [{
                   name: 'Tech Skills',
                   data: [
-                      { name: 'Java', y: 40 },
+                      { name: 'Java', y: 20 },
                       { name: 'C/C++', y: 10 },
                       { name: 'Shell Script', y: 30 },
-                      { name: 'Matlab', y:10 },
-                      { name: 'Python', y: 30 },
+                      { name: 'Matlab', y:5 },
+                      { name: 'Python', y: 40 },
                       { name: 'R', y: 5 },
                       { name: 'Swift', y: 5 },
                       { name: 'JavaScript', y: 40 },
