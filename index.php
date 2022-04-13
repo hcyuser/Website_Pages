@@ -430,6 +430,13 @@ if(empty($_SERVER["HTTPS"])) {
         <p>In <a href="https://dadh2020.ascdc.tw">DADH 2020</a></p></td>
         <td>Academia Sinica, Taipei</td>
       </tr>
+      <tr>
+        <td>2022</td>
+        <td>Community</td>
+        <td>E.SUN AI Open Competition Winter 2021-Credit Card Transaction Category Recommendation</td>
+        <td>He participated in this competition and was placed 13th out of 859 participants from 27th October, 2021 to 6th January, 2022.</td>
+        <td><a href="https://www.esunbank.com.tw">E.SUN Commercial Bank</a>, Taipei</td>
+      </tr>
     </tbody>
   </table>
 </div>
