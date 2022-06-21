@@ -437,6 +437,14 @@ if(empty($_SERVER["HTTPS"])) {
         <td>He participated in this competition and was placed 13th out of 859 participants from 27th October, 2021 to 6th January, 2022.</td>
         <td><a href="https://www.esunbank.com.tw">E.SUN Commercial Bank</a>, Taipei</td>
       </tr>
+      <tr>
+        <td>2022</td>
+        <td><span class="badge  badge-warning">Journal Papers</span></td>
+        <td><a href="http://dx.doi.org/10.6853%2fDADH.202204_(9).0001">DocuWidgets: Enhanced Toolkits for DocuSky</a></td>
+        <td>Huang, C. Y., Hsiang, J., & Tu, H. C. (2022). DocuWidgets: Enhanced Toolkits for DocuSky. 數位典藏與數位人文, (9), 1-13.</td>
+        <td>National Taiwan University, Taipei</td>
+      </tr>
+
     </tbody>
   </table>
 </div>
@@ -617,6 +625,7 @@ if(empty($_SERVER["HTTPS"])) {
           <p>Email: <img src="email.png"></p>
           <p>Telegram: <a href='https://t.me/hcyuser'>https://t.me/hcyuser</a></p>
           <p>Messenger: <a href='https://m.me/hcyuser'>https://m.me/hcyuser</a></p>
+          <p>LinkedIn: <a href='https://www.linkedin.com/in/hcyuser/'>https://www.linkedin.com/in/hcyuser/</a></p>
           <p>GitHub: <a href='https://github.com/hcyuser'>https://github.com/hcyuser</a></p>
           <p>ORCID: <a href='https://orcid.org/0000-0002-4057-2746'>https://orcid.org/0000-0002-4057-2746</a></p>
 
