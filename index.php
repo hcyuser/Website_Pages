@@ -440,9 +440,16 @@ if(empty($_SERVER["HTTPS"])) {
       <tr>
         <td>2022</td>
         <td><span class="badge  badge-warning">Journal Papers</span></td>
-        <td><a href="http://dx.doi.org/10.6853%2fDADH.202204_(9).0001">DocuWidgets: Enhanced Toolkits for DocuSky</a></td>
+        <td><a href="http://dx.doi.org/10.6853/DADH.202204_(9).0001">DocuWidgets: Enhanced Toolkits for DocuSky</a></td>
         <td>Huang, C. Y., Hsiang, J., & Tu, H. C. (2022). DocuWidgets: Enhanced Toolkits for DocuSky. 數位典藏與數位人文, (9), 1-13.</td>
         <td>National Taiwan University, Taipei</td>
+      </tr>
+      <tr>
+        <td>2022</td>
+        <td>Community</td>
+        <td>Top 20 Team in the 2022 Taiwan <a href="https://presidential-hackathon.taiwan.gov.tw">Presidential Hackathon</a></td>
+        <td>He participated in the 2022 Taiwan Presidential Hackathon. His team was placed top 20 out of 194 from the primary election. Our project is called <a href="https://inkrosetta.tw">Inkrosetta</a>, trying to bridge the information gap between citizens and government. The goal of this project is to build the uniform news platform for government, which is used to deliver news to citizens with varying approaches like speach reader and multilingual services. It will facilitate the understanding and communication from government to citizens.</td>
+        <td><a href="https://www.ey.gov.tw">Executive Yuan</a>, R.O.C. (Taiwan)</td>
       </tr>
 
     </tbody>
