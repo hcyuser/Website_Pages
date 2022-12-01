@@ -138,7 +138,7 @@ if(empty($_SERVER["HTTPS"])) {
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#WE">Working Experience</a>
+          <a class="nav-link" href="#WE">Work Experience</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#ET">Education & Training</a>
@@ -237,13 +237,13 @@ if(empty($_SERVER["HTTPS"])) {
 <br>
 <br>
 <div class="container">
-  <span class="row justify-content-center align-self-center"><h4>Working Experience</h4></span>
+  <span class="row justify-content-center align-self-center"><h4>Work Experience</h4></span>
   <table id="WE" class="table table-striped table-bordered" style="width:100%">
     <thead>
       <tr>
         <th>Time</th>
         <th>Position</th>
-        <th>Working Content</th>
+        <th>Work Content</th>
         <th>Institution</th>
       </tr>
     </thead>
@@ -465,7 +465,7 @@ if(empty($_SERVER["HTTPS"])) {
             <th>Time</th>
             <th>Position</th>
             <th>Project/Course</th>
-            <th>Working Content</th>
+            <th>Work Content</th>
             <th>Principal Investigator/Advisor</th>
             <th>Department</th>
             <th>Institution</th>
