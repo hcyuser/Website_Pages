@@ -225,9 +225,11 @@ if(empty($_SERVER["HTTPS"])) {
         <div class="card-body">
           <p>
             <h5>
-            Chih-Yang Huang (黃志揚) joined <a href="https://www.novatek.com.tw">Novatek Microelectronics Corp.</a> as a senior engineer since 2021. He worked with Distinguished Prof. <a href="https://scholar.google.com/citations?user=Rxg0ObMAAAAJ&hl=zh-TW">Jieh Hsiang</a> and graduated from <a href="https://www.csie.ntu.edu.tw">Master Program of Artificial Intelligence offered by the Department of Computer Science and Information Engineering</a> at <a href="https://www.ntu.edu.tw">National Taiwan University</a> in 2021.
-    				He received his B.S. degree in <a href="http://cs.utaipei.edu.tw/">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a> in 2019.
-            His research interests include  Algorithms, Natural Language Processing, Computational Linguistics, Social Network Analysis and Digital Humanities.
+            Chih-Yang Huang (黃志揚) joins <a href="https://www.novatek.com.tw">Novatek Microelectronics Corp.</a> as a senior engineer since 2021. 
+            He is the first few employees joining the Design Platform (DP) sub-department, and being in charge of the design platform to manipulate and analyze the data, such as PM, HR planning and CAD tools (ICC, INVS). He uses several programming language, such Java, Python3 and JavaScript. Besides, he also develops the platform based on some frameworks, such as Java Spring Boot, Quasar, PrimeVue and Vue3. With the above languages and frameworks, he does some unit tests on them with Mocha, Jest and JUnit.
+
+            Before he works in Novatek, he worked with Distinguished <a href="https://scholar.google.com/citations?user=Rxg0ObMAAAAJ&hl=zh-TW">Prof. Jieh Hsiang</a> and graduated from M.S. in <a href="https://www.csie.ntu.edu.tw">CSIE</a> at <a href="https://www.ntu.edu.tw">NTU</a> in 2021.
+            He received his B.S. degree in <a href="http://cs.utaipei.edu.tw/">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a> in 2019. His research and engineering interests include Information Retrieval, NLP and Digital Humanities.
             </h5>
           </p>
         </div>
@@ -746,3 +748,4 @@ if(empty($_SERVER["HTTPS"])) {
     </script>
 </body>
 </html>
+
