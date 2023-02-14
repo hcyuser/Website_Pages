@@ -226,7 +226,7 @@ if(empty($_SERVER["HTTPS"])) {
           <p>
             <h5>
             Chih-Yang Huang (黃志揚) joins <a href="https://www.novatek.com.tw">Novatek Microelectronics Corp.</a> as a senior engineer since 2021. 
-            He is the first few employees joining the Design Platform (DP) sub-department, and being in charge of the design platform to manipulate and analyze the data, such as PM, HR planning and CAD tools (ICC2, INVS). He uses several programming language, such as Java, Python3 and JavaScript. Besides, he also develops the platform based on some frameworks, such as Java Spring Boot, Quasar, PrimeVue and Vue3. With the above languages and frameworks, he does some unit tests on them with Mocha, Jest and JUnit.
+            He is the first few employees joining the Design Platform (DP) sub-department, and being in charge of the design platform to manipulate and analyze the data, such as PM, HR planning and CAD tools (ICC, INVS). He uses several programming language, such as Java, Python3 and JavaScript. Besides, he also develops the platform based on some frameworks, such as Java Spring Boot, Quasar, PrimeVue and Vue3. With the above languages and frameworks, he does some unit tests on them with Mocha, Jest and JUnit.
 
             Before he works in Novatek, he worked with Distinguished <a href="https://scholar.google.com/citations?user=Rxg0ObMAAAAJ&hl=zh-TW">Prof. Jieh Hsiang</a> and graduated from M.S. in <a href="https://www.csie.ntu.edu.tw">CSIE</a> at <a href="https://www.ntu.edu.tw">NTU</a> in 2021.
             He received his B.S. degree in <a href="http://cs.utaipei.edu.tw/">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a> in 2019. His research and engineering interests include Information Retrieval, NLP and Digital Humanities.
@@ -575,7 +575,7 @@ if(empty($_SERVER["HTTPS"])) {
                 <br>
                 <li><a href="#" data-toggle="modal" data-target="#MOSTModal">College Student Research Scholarship, MOST, Taiwan, 2018~2019</a></li><br>
                 <li>Academic Achievement Award, University of Taipei, Taiwan, 2015~2018</li><br>
-                <li><a href="http://service.utaipei.edu.tw/files/11-1023-59.php?Lang=zh-tw">Entrance Scholarship, University of Taipei, Taiwan, 2015~2018</a></li><br>
+                <li><a href="https://service.utaipei.edu.tw/var/file/34/1034/img/867050061.pdf">Entrance Scholarship, University of Taipei, Taiwan, 2015~2018</a></li><br>
                 <li>Literary Award, National Yilan Senior High School, Yilan, Taiwan, 2013~2014</li><br>
                 <li>Academic Achievement Award, National Yilan Senior High School, Yilan, Taiwan, 2013~2014</li>
                 <br>
@@ -666,7 +666,7 @@ if(empty($_SERVER["HTTPS"])) {
           <p>Project: 空間興趣群組查詢問題之研究(The spatial-aware interest group query problem)</p>
           <p>Project Number: 107-2813-C-845-025-E</p>
           <p>Research Time: 2018.07.01~2019.02.28</p>
-          <p>Thesis Advisor: <a href='https://arsp.most.gov.tw/NSCWebFront/modules/talentSearch/talentSearch.do?action=initBasic&rsNo=5aa75891276a4855876ba825740d103c'>Yen-Hung Chen(陳彥宏)</a></p>
+          <p>Thesis Advisor: <a href='https://arspb.nstc.gov.tw/NSCWebFront/modules/talentSearch/talentSearch.do?action=initBasic&rsNo=5aa75891276a4855876ba825740d103c&LANG=chi'>Yen-Hung Chen(陳彥宏)</a></p>
 
 
         </div>
@@ -748,4 +748,3 @@ if(empty($_SERVER["HTTPS"])) {
     </script>
 </body>
 </html>
-
