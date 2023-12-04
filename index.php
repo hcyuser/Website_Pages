@@ -225,11 +225,15 @@ if(empty($_SERVER["HTTPS"])) {
         <div class="card-body">
           <p>
             <h5>
-            Chih-Yang Huang (黃志揚) joins <a href="https://www.novatek.com.tw">Novatek Microelectronics Corp.</a> as a senior engineer since 2021. 
-            He is the first few employees joining the Design Platform (DP) sub-department, and being in charge of the design platform to manipulate and analyze the data, such as PM, HR planning and CAD tools (ICC, INVS). He uses several programming language, such as Java, Python3 and JavaScript. Besides, he also develops the platform based on some frameworks, such as Java Spring Boot, Quasar, PrimeVue and Vue3. With the above languages and frameworks, he does some unit tests on them with Mocha, Jest and JUnit.
-
-            Before he works in Novatek, he worked with Distinguished <a href="https://scholar.google.com/citations?user=Rxg0ObMAAAAJ&hl=zh-TW">Prof. Jieh Hsiang</a> and graduated from M.S. in <a href="https://www.csie.ntu.edu.tw">CSIE</a> at <a href="https://www.ntu.edu.tw">NTU</a> in 2021.
-            He received his B.S. degree in <a href="http://cs.utaipei.edu.tw/">Computer Science</a> at <a href="http://www.utaipei.edu.tw/">University of Taipei</a> in 2019. His research and engineering interests include Information Retrieval, NLP and Digital Humanities.
+              I earned my M.S. in <b>AI</b>, <b><a href="https://www.csie.ntu.edu.tw">Computer Science</a></b> and Information Engineering (GPA <b>4.0</b>/4.3) from <b><a href="https://www.ntu.edu.tw">NTU</a></b> (the top <b>1</b> school in Taiwan) in 2021.
+              <br>
+              I have been serving as a <b>software engineer</b> at <b><a href="https://www.novatek.com.tw">Novatek Microelectronics Corp</a></b> (the top <b>6</b> IC fabless design houses in the <b>world</b>) since 2021.
+              <br>
+              I can speak native <b>Chinese</b>, professional <b>English</b> and basic <b>Bahasa Melayu</b>.
+              <br>
+              Programming Language: Professional in <b>JavaScript</b>, <b>Python3</b>, <b>Java</b> and Experienced in Bash
+              <br>
+              Skills: <b>Web Programming</b>(Java Spring Boot, Vue3), SQL(PostgreSQL), <b>ML</b>(Scikit-learn and PyTorch), AI and Software Engineering
             </h5>
           </p>
         </div>
@@ -684,66 +688,56 @@ if(empty($_SERVER["HTTPS"])) {
   <!-- Chart JS -->
   <script src="https://code.highcharts.com/highcharts.js"></script>
   <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
   <script type="text/javascript">
-
-          // Make monochrome colors
-          var pieColors = (function () {
-              var colors = [],
-                  base = Highcharts.getOptions().colors[0],i;
-
-              for (i = 0; i < 12; i += 1) {
-                  // Start out with a darkened base color (negative brighten), and end
-                  // up with a much brighter color
-                  colors.push(Highcharts.Color(base).brighten((i - 3) / 7).get());
-              }
-              return colors;
-          }());
 
           // Build the chart
           Highcharts.chart('chart', {
               chart: {
-                  plotBackgroundColor: null,
-                  plotBorderWidth: null,
-                  plotShadow: false,
                   type: 'pie'
               },
               title: {
-                  text: 'Tech Skills'
+                  text: ''
               },
               tooltip: {
-                  pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                  valueSuffix: '%'
               },
               plotOptions: {
-                  pie: {
+                  series: {
                       allowPointSelect: true,
                       cursor: 'pointer',
-                      colors: pieColors,
-                      dataLabels: {
+                      dataLabels: [{
                           enabled: true,
-                          format: '<b>{point.name}</b><br>{point.percentage:.1f} %',
-                          distance: -50,
+                          distance: 20
+                      }, {
+                          enabled: true,
+                          distance: -40,
+                          format: '{point.percentage:.1f}%',
+                          style: {
+                              fontSize: '1.2em',
+                              textOutline: 'none',
+                              opacity: 0.7
+                          },
                           filter: {
-                              property: 'percentage',
                               operator: '>',
-                              value: 4
+                              property: 'percentage',
+                              value: 10
                           }
-                      }
+                      }]
                   }
               },
-              series: [{
-                  name: 'Tech Skills',
-                  data: [
-                      { name: 'Java', y: 20 },
-                      { name: 'C/C++', y: 10 },
-                      { name: 'Shell Script', y: 30 },
-                      { name: 'Matlab', y:5 },
-                      { name: 'Python', y: 40 },
-                      { name: 'R', y: 5 },
-                      { name: 'Swift', y: 5 },
-                      { name: 'JavaScript', y: 40 },
-                      { name: 'PHP', y: 15 }
-                  ]
-              }]
+              series: [
+                  {
+                      name: 'Percentage',
+                      colorByPoint: true,
+                      data: [
+                        { name: 'Java', y: 30 },
+                        { name: 'Shell Script', y: 10 },
+                        { name: 'Python', y: 20 },
+                        { name: 'JavaScript', y: 40 }
+                      ]
+                  }
+              ]
           });
     </script>
 </body>
