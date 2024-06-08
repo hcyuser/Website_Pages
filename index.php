@@ -225,9 +225,11 @@ if(empty($_SERVER["HTTPS"])) {
         <div class="card-body">
           <p>
             <h5>
-              I earned my M.S. in <b>AI</b>, <b><a href="https://www.csie.ntu.edu.tw">Computer Science</a></b> and Information Engineering (GPA <b>4.0</b>/4.3) from <b><a href="https://www.ntu.edu.tw">NTU</a></b> (the top <b>1</b> school in Taiwan) in 2021.
+              I have been serving as a senior software engineer at <b><a href="https://www.appier.com/">Appier Inc</a></b> in <b>Nikkei 500</b> Stock Average list since 2024.
               <br>
-              I have been serving as a <b>software engineer</b> at <b><a href="https://www.novatek.com.tw">Novatek Microelectronics Corp</a></b> (the top <b>6</b> IC fabless design houses in the <b>world</b>) since 2021.
+              I worked as an <b>advanced software engineer</b> at <b><a href="https://www.novatek.com.tw">Novatek Microelectronics Corp</a></b> (the top <b>6</b> IC fabless design houses in the <b>world</b>) from 2021 to 2023.
+              <br>
+              I earned my M.S. in <b>AI</b>, <b><a href="https://www.csie.ntu.edu.tw">Computer Science</a></b> and Information Engineering (GPA <b>4.0</b>/4.3) from <b><a href="https://www.ntu.edu.tw">NTU</a></b> (the top <b>1</b> school in Taiwan) in 2021.
               <br>
               I can speak native <b>Chinese</b>, professional <b>English</b> and basic <b>Bahasa Melayu</b>.
               <br>
@@ -255,10 +257,16 @@ if(empty($_SERVER["HTTPS"])) {
     </thead>
     <tbody>
       <tr>
-        <td>2021-Now</td>
-        <td>Senior Engineer</td>
+        <td>2021-2023</td>
+        <td>Advanced Engineer</td>
         <td>Design Data Storage, Manipulatation and Analysis</td>
         <td><a href="https://www.novatek.com.tw">Novatek Microelectronics Corp., Hsinchu, Taiwan</a></td>
+      </tr>
+      <tr>
+        <td>2024-Now</td>
+        <td>Senior Software Engineer</td>
+        <td>R&D</td>
+        <td><a href="https://www.appier.com">Appier Inc, Taipei, Taiwan</a></td>
       </tr>
     </tbody>
   </table>
