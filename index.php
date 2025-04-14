@@ -233,10 +233,8 @@ if(empty($_SERVER["HTTPS"])) {
               <br>
               I can speak native <b>Chinese</b>, professional <b>English</b> and basic <b>Bahasa Melayu</b>.
               <br>
-              Programming Language: Professional in <b>JavaScript</b>, <b>Python3</b>, <b>Java</b> and Experienced in Bash
-              <br>
-              Skills: <b>Web Programming</b>(Java Spring Boot, Vue3, Node.js), <b>RDBMS</b>(PostgreSQL, MySQL), <b>NoSQL</b>(MongoDB, Redis),
-<b>ML</b>(Scikit-learn and PyTorch), <b>IaC</b>(Terraform, Ansible), <b>Kubernetes</b>, AI and Software Engineering
+              Skills: <b>Programming</b>(Java,JavaScript,Python), <b>RDBMS</b>(PostgreSQL, MySQL), <b>NoSQL</b>(MongoDB, Redis),
+              <b>ML</b>(Scikit-learn and PyTorch), <b>Data Monitor</b>(Elasticsearch, Grafana), <b>IaC</b>(Terraform, Ansible), <b>Kubernetes</b>, AI and <b>Project Management</b>
             </h5>
           </p>
         </div>
@@ -758,3 +756,4 @@ if(empty($_SERVER["HTTPS"])) {
     </script>
 </body>
 </html>
+
